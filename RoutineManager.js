@@ -1,5 +1,5 @@
 import { Button, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
-import { React, useState } from 'react';
+import { useState } from 'react';
 import Modal from 'react-native-modal';
 
 const RoutineManager = ({

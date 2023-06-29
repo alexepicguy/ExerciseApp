@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ExerciseApp",
-    "slug": "ExerciseApp",
+    "slug": "exercise-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,7 +20,8 @@
         "UIBackgroundModes": [
           "audio"
         ]
-      }
+      },
+      "bundleIdentifier": "com.nkbr6.exerciseapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -30,6 +31,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2e99c030-e7b7-469d-aa56-1234a72e8643"
+      }
+    },
+    "owner": "nkbr6"
   }
 }
